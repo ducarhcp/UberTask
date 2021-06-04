@@ -10,13 +10,16 @@
 		2C89BAA361FF06EC8D0D5B2E /* Pods_UberTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6606C8C28F92DF8C2B3ECD24 /* Pods_UberTask.framework */; };
 		C83B83682656AC2500B82D3F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B83672656AC2500B82D3F /* AppDelegate.swift */; };
 		C83B836A2656AC2500B82D3F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B83692656AC2500B82D3F /* SceneDelegate.swift */; };
-		C83B836C2656AC2500B82D3F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B836B2656AC2500B82D3F /* ViewController.swift */; };
 		C83B836F2656AC2500B82D3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83B836D2656AC2500B82D3F /* Main.storyboard */; };
 		C83B83712656AC2700B82D3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C83B83702656AC2700B82D3F /* Assets.xcassets */; };
 		C83B83742656AC2700B82D3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C83B83722656AC2700B82D3F /* LaunchScreen.storyboard */; };
-		C83B837C2657E87000B82D3F /* CarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B837B2657E87000B82D3F /* CarListViewController.swift */; };
 		C83B837F2658FAEC00B82D3F /* RideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C83B837E2658FAEB00B82D3F /* RideTableViewCell.swift */; };
+		C8D5E4D32667634400871DF5 /* RideTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8D5E4D22667634400871DF5 /* RideTableViewCell.xib */; };
 		C8E04E38265DA2D9002879F9 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E04E37265DA2D9002879F9 /* UIViewExtension.swift */; };
+		C8E04E3A265F86F8002879F9 /* MainViewControllerConstantValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E04E39265F86F8002879F9 /* MainViewControllerConstantValues.swift */; };
+		C8E04E3C265F9D56002879F9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E04E3B265F9D56002879F9 /* MainViewController.swift */; };
+		C8E04E422660CF12002879F9 /* Ride.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E04E412660CF12002879F9 /* Ride.swift */; };
+		C8E04E442660D554002879F9 /* RidesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E04E432660D554002879F9 /* RidesRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,14 +29,17 @@
 		C83B83642656AC2500B82D3F /* UberTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UberTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C83B83672656AC2500B82D3F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C83B83692656AC2500B82D3F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C83B836B2656AC2500B82D3F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C83B836E2656AC2500B82D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C83B83702656AC2700B82D3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C83B83732656AC2700B82D3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C83B83752656AC2700B82D3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C83B837B2657E87000B82D3F /* CarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewController.swift; sourceTree = "<group>"; };
 		C83B837E2658FAEB00B82D3F /* RideTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideTableViewCell.swift; sourceTree = "<group>"; };
+		C8D5E4D22667634400871DF5 /* RideTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RideTableViewCell.xib; sourceTree = "<group>"; };
 		C8E04E37265DA2D9002879F9 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		C8E04E39265F86F8002879F9 /* MainViewControllerConstantValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerConstantValues.swift; sourceTree = "<group>"; };
+		C8E04E3B265F9D56002879F9 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C8E04E412660CF12002879F9 /* Ride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ride.swift; sourceTree = "<group>"; };
+		C8E04E432660D554002879F9 /* RidesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidesRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,8 @@
 		C83B835B2656AC2500B82D3F = {
 			isa = PBXGroup;
 			children = (
+				C8E04E402660CCEF002879F9 /* Model */,
+				C8E04E3D265FB3E7002879F9 /* ClassManagers */,
 				C8E04E36265DA2B5002879F9 /* Extensions */,
 				C83B837D2658FA7E00B82D3F /* TableViewCells */,
 				C83B83662656AC2500B82D3F /* UberTask */,
@@ -90,12 +98,12 @@
 			children = (
 				C83B83672656AC2500B82D3F /* AppDelegate.swift */,
 				C83B83692656AC2500B82D3F /* SceneDelegate.swift */,
-				C83B836B2656AC2500B82D3F /* ViewController.swift */,
 				C83B836D2656AC2500B82D3F /* Main.storyboard */,
 				C83B83702656AC2700B82D3F /* Assets.xcassets */,
 				C83B83722656AC2700B82D3F /* LaunchScreen.storyboard */,
 				C83B83752656AC2700B82D3F /* Info.plist */,
-				C83B837B2657E87000B82D3F /* CarListViewController.swift */,
+				C8E04E39265F86F8002879F9 /* MainViewControllerConstantValues.swift */,
+				C8E04E3B265F9D56002879F9 /* MainViewController.swift */,
 			);
 			path = UberTask;
 			sourceTree = "<group>";
@@ -104,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				C83B837E2658FAEB00B82D3F /* RideTableViewCell.swift */,
+				C8D5E4D22667634400871DF5 /* RideTableViewCell.xib */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -114,6 +123,22 @@
 				C8E04E37265DA2D9002879F9 /* UIViewExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C8E04E3D265FB3E7002879F9 /* ClassManagers */ = {
+			isa = PBXGroup;
+			children = (
+				C8E04E432660D554002879F9 /* RidesRepository.swift */,
+			);
+			path = ClassManagers;
+			sourceTree = "<group>";
+		};
+		C8E04E402660CCEF002879F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C8E04E412660CF12002879F9 /* Ride.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C83B83742656AC2700B82D3F /* LaunchScreen.storyboard in Resources */,
+				C8D5E4D32667634400871DF5 /* RideTableViewCell.xib in Resources */,
 				C83B83712656AC2700B82D3F /* Assets.xcassets in Resources */,
 				C83B836F2656AC2500B82D3F /* Main.storyboard in Resources */,
 			);
@@ -230,12 +256,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C83B836C2656AC2500B82D3F /* ViewController.swift in Sources */,
+				C8E04E3A265F86F8002879F9 /* MainViewControllerConstantValues.swift in Sources */,
 				C83B837F2658FAEC00B82D3F /* RideTableViewCell.swift in Sources */,
+				C8E04E422660CF12002879F9 /* Ride.swift in Sources */,
 				C83B83682656AC2500B82D3F /* AppDelegate.swift in Sources */,
+				C8E04E442660D554002879F9 /* RidesRepository.swift in Sources */,
 				C8E04E38265DA2D9002879F9 /* UIViewExtension.swift in Sources */,
 				C83B836A2656AC2500B82D3F /* SceneDelegate.swift in Sources */,
-				C83B837C2657E87000B82D3F /* CarListViewController.swift in Sources */,
+				C8E04E3C265F9D56002879F9 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

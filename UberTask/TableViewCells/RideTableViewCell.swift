@@ -8,5 +8,8 @@
 import UIKit
 
 class RideTableViewCell: UITableViewCell {
-    
+    @IBOutlet weak var carImageView: UIImageView!
+    @IBOutlet weak var dropoffLabel: UILabel!
+    @IBOutlet weak var totalAmountLabel: UILabel!
+
 }
